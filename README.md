@@ -35,6 +35,8 @@ images = model.generate_text2img('red cat, 4k photo', num_steps=10,
                                   prior_cf_scale=4, prior_steps="5")
 images[0]
 ```
+![Изображение](https://drive.google.com/uc?export=view&id=1wyoPcs9c3yhmePhJZU4QXFrtiI5b2qpb)
+
 ## Исследование латентого пространства
 
 **Исследование латентного (скрытого) пространства** — это процесс сэмплирования точки в латентном пространстве и постепенное изменение латентного представления. Его наиболее распространенное применение — создание анимации, в которой каждая точка выборки подается на декодер и сохраняется в виде кадра в окончательной анимации. Для высококачественных скрытых представлений это создает связную анимацию. 
@@ -245,11 +247,12 @@ for i in range(interpolation_steps * (len(prompts) - 1)):
 
 images_l[0].save('kandinsky.gif', save_all=True, append_images=images_l[1:], optimize=False, duration=200, loop=0)
 ```
-Отображение полученных результатов осуществляется в виде [GIF отображения ](https://drive.google.com/file/d/1jShRUEYK0uy5EGSrUoG2EEs-Egbn2BZQ/view?usp=drive_link).
+Отображение полученных результатов осуществляется в виде [GIF отображения ](https://drive.google.com/file/d/1-lsbKHP4iZCr44YvOr845A6XtXnWaoCp/view?usp=sharing).
 ```
 from IPython.display import Image as IImage
 IImage("kandinsky.gif")
 ```
+
 ### Результат для одномерной интерполяции между десятью запросами
 
 В данном случае была осуществлена одномерная интерполяция между запросами:
@@ -291,10 +294,11 @@ for i in range(interpolation_steps * (len(prompts) - 1)):
 
 images_l[0].save('kandinsky25.gif', save_all=True, append_images=images_l[1:], optimize=False, duration=200, loop=0)
 ```
-Отображение полученных результатов осуществляется в виде [GIF отображения](https://drive.google.com/file/d/1dg0OU6ucXHAoDIwWL6MQ6eZJ99ubsT3K/view?usp=drive_link).
+Отображение полученных результатов осуществляется в виде [GIF отображения](https://drive.google.com/file/d/1jShRUEYK0uy5EGSrUoG2EEs-Egbn2BZQ/view?usp=sharing).
 ```
 IImage("kandinsky25.gif")
 ```
+
 ### Результат многомерной интерполяции 
 
 В данном случае представлена двумерная интерполяция между, соответственно, четырьмя признаками:
@@ -354,15 +358,18 @@ plt.savefig(fname="4-way-interpolation.jpg",
             bbox_inches="tight",
             transparent=False,
             dpi=60)
-```    
+``` 
+![Изображение](https://drive.google.com/uc?export=view&id=18iin43TQ1HhfScrNvNNWXPuC08OhhLN2)
+
 ## Итоги
 
 Исходники и результаты выполнения данной лабораторной работы находятся [здесь](https://drive.google.com/file/d/1-lsbKHP4iZCr44YvOr845A6XtXnWaoCp/view?usp=drive_link).
 
 Подробнее с результатами исследования латентного пространства для модели Kandinsky-2.1 можно ознакомиться [здесь](https://colab.research.google.com/drive/1fzjaaWB0xhlAAg7cLXRjwF7-PAVR6hzW#scrollTo=vNPAfZADyY6O).
+https://drive.google.com/file/d/1dg0OU6ucXHAoDIwWL6MQ6eZJ99ubsT3K/view?usp=sharing
 
-[GIF изображение для двух запросов](https://drive.google.com/file/d/1jShRUEYK0uy5EGSrUoG2EEs-Egbn2BZQ/view?usp=drive_link).
+[GIF изображение для двух запросов](https://drive.google.com/file/d/1-lsbKHP4iZCr44YvOr845A6XtXnWaoCp/view?usp=sharing).
 
-[GIF изображение для десяти запросов](https://drive.google.com/file/d/1dg0OU6ucXHAoDIwWL6MQ6eZJ99ubsT3K/view?usp=drive_link).
+[GIF изображение для десяти запросов](https://drive.google.com/file/d/1jShRUEYK0uy5EGSrUoG2EEs-Egbn2BZQ/view?usp=sharing).
 
 Изображение для четырех запросов для многомерной интерполяции [здесь](https://drive.google.com/file/d/18iin43TQ1HhfScrNvNNWXPuC08OhhLN2/view?usp=drive_link).
