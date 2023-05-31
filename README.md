@@ -1,6 +1,8 @@
 # Лабораторная работа №2. 
 # Исследование латентного пространства модели Kandinsky-2.1
 
+Подробнее с результатами исследования латентного пространства для модели Kandinsky-2.1 можно ознакомиться [здесь](https://colab.research.google.com/drive/1fzjaaWB0xhlAAg7cLXRjwF7-PAVR6hzW#scrollTo=vNPAfZADyY6O).
+
 Задание:
 
 1. Изучить исходные коды нейросетевой модели Kandinsky-2.1.
@@ -355,12 +357,12 @@ plt.savefig(fname="4-way-interpolation.jpg",
 ```    
 ## Итоги
 
-Исходники и результаты выполнения данной лабораторной работы находятся [здесь](https://drive.google.com/file/d/1-lsbKHP4iZCr44YvOr845A6XtXnWaoCp/view?usp=drive_link)
+Исходники и результаты выполнения данной лабораторной работы находятся [здесь](https://drive.google.com/file/d/1-lsbKHP4iZCr44YvOr845A6XtXnWaoCp/view?usp=drive_link).
 
-Подробнее с результатами исследования латентного пространства для модели Kandinsky-2.1 можно ознакомиться [здесь](https://colab.research.google.com/drive/1fzjaaWB0xhlAAg7cLXRjwF7-PAVR6hzW#scrollTo=vNPAfZADyY6O)
+Подробнее с результатами исследования латентного пространства для модели Kandinsky-2.1 можно ознакомиться [здесь](https://colab.research.google.com/drive/1fzjaaWB0xhlAAg7cLXRjwF7-PAVR6hzW#scrollTo=vNPAfZADyY6O).
 
-[GIF изображение для двух запросов](https://drive.google.com/file/d/1jShRUEYK0uy5EGSrUoG2EEs-Egbn2BZQ/view?usp=drive_link)
+[GIF изображение для двух запросов](https://drive.google.com/file/d/1jShRUEYK0uy5EGSrUoG2EEs-Egbn2BZQ/view?usp=drive_link).
 
-[GIF изображение для десяти запросов](https://drive.google.com/file/d/1dg0OU6ucXHAoDIwWL6MQ6eZJ99ubsT3K/view?usp=drive_link)
+[GIF изображение для десяти запросов](https://drive.google.com/file/d/1dg0OU6ucXHAoDIwWL6MQ6eZJ99ubsT3K/view?usp=drive_link).
 
-Изображение для четырех запросов для многомерной интерполяции [здесь](https://drive.google.com/file/d/18iin43TQ1HhfScrNvNNWXPuC08OhhLN2/view?usp=drive_link)
+Изображение для четырех запросов для многомерной интерполяции [здесь](https://drive.google.com/file/d/18iin43TQ1HhfScrNvNNWXPuC08OhhLN2/view?usp=drive_link).
