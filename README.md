@@ -363,10 +363,9 @@ plt.savefig(fname="4-way-interpolation.jpg",
 
 ## Итоги
 
-Исходники и результаты выполнения данной лабораторной работы находятся [здесь](https://drive.google.com/file/d/1-lsbKHP4iZCr44YvOr845A6XtXnWaoCp/view?usp=drive_link).
+Исходники и результаты выполнения данной лабораторной работы находятся [здесь](https://drive.google.com/drive/folders/1WD08uNjOcDFO0CudqINZ6URfyjo84HOr?usp=sharing).
 
-Подробнее с результатами исследования латентного пространства для модели Kandinsky-2.1 можно ознакомиться [здесь](https://colab.research.google.com/drive/1fzjaaWB0xhlAAg7cLXRjwF7-PAVR6hzW#scrollTo=vNPAfZADyY6O).
-https://drive.google.com/file/d/1dg0OU6ucXHAoDIwWL6MQ6eZJ99ubsT3K/view?usp=sharing
+Подробнее с результатами исследования латентного пространства для модели Kandinsky-2.1 можно ознакомиться [здесь](https://colab.research.google.com/drive/1fzjaaWB0xhlAAg7cLXRjwF7-PAVR6hzW#scrollTo=vNPAfZADyY6O) или [здесь](https://drive.google.com/file/d/1dg0OU6ucXHAoDIwWL6MQ6eZJ99ubsT3K/view?usp=sharing)
 
 [GIF изображение для двух запросов](https://drive.google.com/file/d/1-lsbKHP4iZCr44YvOr845A6XtXnWaoCp/view?usp=sharing).
 
